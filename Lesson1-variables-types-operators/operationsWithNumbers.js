@@ -34,3 +34,10 @@
 // const value8 = 25 - "7sdfsdf" 
 // console.log(value8)
 
+console.log(Number.isNaN("asdadsdasdasd"))
+console.log(Number.isNaN('51'))
+console.log(Number.isNaN(51))
+
+console.log(Number.isNaN(NaN))
+console.log(Number.isNaN(Number.NaN))
+console.log(Number.isNaN(0/0))
